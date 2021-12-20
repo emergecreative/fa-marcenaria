@@ -4455,8 +4455,22 @@ hero-btn {
 
 /* line 37, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
 
+.slider-area4 {
+    background-image: url(../img/clientes/smartfit/atendimento-smartfit.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.slider-area3 {
+    background-image: url(../img/clientes/bioritmo/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .slider-area2 {
-    background-image: url(../img/clientes/smartfit/9.png);
+    background-image: url(../img/clientes/race/13.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -4633,7 +4647,7 @@ hero-btn {
 
 /* line 161, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
 
-.slider-area2 .hero-cap h1 {
+.slider-area2 .hero-cap h1, .slider-area3 .hero-cap h1, .slider-area4 .hero-cap h1 {
     color: #ffc23c;
     font-size: 70px;
     font-weight: 700;
@@ -5841,6 +5855,15 @@ hero-btn {
     margin-bottom: 12px;
 }
 
+.footer-area .footer-bottom .footer-copy-right img {
+    padding-left: 10px;
+}
+
+@media (max-width: 331px){
+    .footer-area .footer-bottom .footer-copy-right img {
+        padding-left: 0;
+    }
+}
 
 /* line 95, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_footer.scss */
 
